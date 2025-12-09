@@ -78,4 +78,20 @@ Evaluates weather data by comparing actual values with the ideal crop requiremen
 ###  Procedure: `GENERATE_ADVISORY`
 
 **Purpose:**  
-Generates advisories for
+Generates advisories 
+
+
+ Conclusion
+
+The **Weather-Based Crop Advisory System** is a robust, scalable, and fully automated PL/SQL-driven solution designed to support Rwandan farmers with accurate, real-time agricultural guidance.
+
+By integrating:
+- Real weather data  
+- Crop-specific requirements  
+- Automated advisory logic  
+- Security and auditing mechanisms  
+
+…the system delivers reliable decision support that can significantly improve agricultural productivity.  
+This solution contributes to **sustainable, efficient, and climate-smart farming practices in Rwanda**, aligning with national goals for modern agriculture.
+
+---
