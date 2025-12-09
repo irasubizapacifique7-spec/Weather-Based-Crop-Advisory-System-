@@ -1,9 +1,8 @@
+#####: Business Process Modeling
+###Objective: Model business process relevant to MIS.
 
-: Business Process Modeling
-Objective: Model business process relevant to MIS.
 
-
-1. Overview
+###1. Overview
 
 The Weather-Based Crop Advisory System automates the process of collecting daily weather data, analyzing it using crop requirements, and generating advisory messages for farmers.
 The BPMN workflow consists of one pool and three lanes that represent the main actors and processes:
@@ -16,11 +15,11 @@ Farmer
 
 This ensures a smooth, automated flow from weather monitoring to crop advisory delivery.
 
-🏢 2. Pool: Weather-Based Crop Advisory System
+### 2. Pool: Weather-Based Crop Advisory System
 
 This pool represents the entire workflow from weather data ingestion to farmer action.
 
-🟦 Lane 1: Weather Data Module
+### Lane 1: Weather Data Module
 
 This lane manages weather data acquisition and validation.
 
@@ -38,7 +37,7 @@ Insert validated data into the WEATHER_DATA table.
 Trigger Advisory Generation
 Notify the PL/SQL Engine that new weather data is available.
 
-🟩 Lane 2: PL/SQL Processing Engine
+### Lane 2: PL/SQL Processing Engine
 
 This lane handles the core advisory logic implemented in PL/SQL.
 
@@ -71,7 +70,7 @@ Save the advisory for SMS/mobile delivery.
 
 End Process
 
-🟨 Lane 3: Farmer
+### Lane 3: Farmer
 
 This lane represents how farmers interact with system advisories.
 
@@ -86,7 +85,7 @@ Instructions like irrigation, delaying planting, or crop protection.
 Take Farming Action
 Apply the recommended farming steps.
 
-📝 3. Summary
+### 3. Summary
 
 The BPMN scenario provides a fully automated advisory pipeline:
 
@@ -98,12 +97,5 @@ Farmer Advisory Delivery
 
 It enables timely, location-specific guidance that helps farmers protect crops, reduce risks, and improve agricultural productivity.
 
-✅ End of One-Page BPMN Documentation
 
-If you'd like, I can also prepare:
-✔ A full README.md for your entire project
-✔ ERD section, Data Dictionary section, Normalization section
-✔ PL/SQL explanation + screenshots layout
-✔ GitHub folder structure
 
-Just tell me “Prepare full README”.
